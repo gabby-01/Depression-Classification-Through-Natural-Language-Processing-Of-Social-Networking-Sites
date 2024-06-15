@@ -1,0 +1,10 @@
+streamlit==1.22.0
+tensorflow==2.10.0
+matplotlib
+seaborn
+nltk
+wordninja
+spacy
+torch
+transformers
+en-core-web-sm
