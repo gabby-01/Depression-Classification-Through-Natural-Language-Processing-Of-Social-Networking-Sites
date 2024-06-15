@@ -18,7 +18,7 @@ The dataset is manually collected by the owner from the Facebook, Twitter, and R
 * **Postman Collection:** Utilized for managing API requests and responses.
 
 # Streamlit App 💻
-* You can access the web application for depression detection here: [Depression Detection App](https://depdetection.streamlit.app/)
+* You can access the web application for depression detection here: [Depression Detection App](https://depdetection.streamlit.app/).
 
 # Project Documentation 📚
-For detailed documentation of the project, including methodology, implementation details, results, and more, please refer to the following complete project documentation in a single PDF file here: [Complete Project Documentation](https://1drv.ms/w/s!Ar5gsj8m4olr0AI5b4L13Y_lQG3e?e=VPldao) 
+For detailed documentation of the project, including methodology, implementation details, results, and more, please refer to the following complete project documentation in a single PDF file here: [Complete Project Documentation](https://1drv.ms/w/s!Ar5gsj8m4olr0AI5b4L13Y_lQG3e?e=VPldao).
