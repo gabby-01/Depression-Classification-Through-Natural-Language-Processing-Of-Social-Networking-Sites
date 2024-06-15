@@ -1,3 +1,5 @@
+![Uploading Project Poster-1.png…]()
+
 # Introduction 📖
 Depression is a widespread mental disorder that affects people globally, with significant disparities across different genders and regions. Recognizing the value of digital platforms in early detection, this project aims to predict signs of user-generated depressive posts on social networking sites (SNS), enhancing the detection of mental health issues in digital communication spaces. Leveraging advanced Natural Language Processing (NLP) models and extensive SNS data, this research addresses this critical health concern effectively.
 
