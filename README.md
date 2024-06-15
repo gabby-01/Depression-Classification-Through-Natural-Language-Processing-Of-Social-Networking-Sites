@@ -13,11 +13,19 @@ Depression is a widespread mental disorder that affects people globally, with si
 * To deploy the most effective model with at least 80% predictive accuracy into a web application.
 
 # Dataset 🛢️
-The dataset is manually collected by the owner from the Facebook, Twitter, and Reddit. It consists of a total of 41,273 samples and can be retrieved via the provided [Data Source.zip](Data%20Source.zip).
+The dataset is manually collected by the owner from Facebook, Twitter, and Reddit. It consists of a total of 41,273 samples and can be retrieved via the provided [Data Source.zip](Data%20Source.zip).
 
 # Data Collection Tool 🛠️
 * **Twitter API:** Used for collecting posts from Twitter.
 * **Postman Collection:** Utilized for managing API requests and responses.
+
+# Deep Learning Models Implementation 🤖
+* Recurrent Neural Network (RNN)
+* Convolutional Neural Network (CNN)
+* Long Short-Term Memory (LSTM)
+* Bidirectional Long Short-Term Memory (BiLSTM)
+* Gated Recurrent Unit (GRU)
+* Robustly Optimized Bidirectional Encoder Representations from Transformers Pretraining Approach (RoBERTa)
 
 # Streamlit App 💻
 * You can access the web application for depression detection here: [Depression Detection App](https://depdetection.streamlit.app/).
