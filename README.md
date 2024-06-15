@@ -24,7 +24,7 @@ The dataset is manually collected by the owner from Facebook, Twitter, and Reddi
 * Convolutional Neural Network (**CNN**)
 * Long Short-Term Memory (**LSTM**)
 * Bidirectional Long Short-Term Memory (**BiLSTM**)
-* Gated Recurrent Unit (*GRU**)
+* Gated Recurrent Unit (**GRU**)
 * Robustly Optimized Bidirectional Encoder Representations from Transformers Pretraining Approach (**RoBERTa**)
 
 # Streamlit App 💻
