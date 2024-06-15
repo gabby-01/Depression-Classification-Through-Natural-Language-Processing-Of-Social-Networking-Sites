@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Ignore venv files
-venv/
-=======
 # Ignore venv file
 venv/
 
@@ -31,7 +27,3 @@ Poster/
 
 # Ignore json to csv conversion file
 Json_to_csv_conversion.ipynb
-
-# Ignore pickle file
-*.pkl
->>>>>>> bdfe3bfe0e2a0da63844fd2d4f2faa8828109619

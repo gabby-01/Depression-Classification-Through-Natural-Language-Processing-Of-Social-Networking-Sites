@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-streamlit==1.22.0
-tensorflow==2.10.0
-matplotlib
-seaborn
-nltk
-wordninja
-spacy
-torch
-transformers
-en-core-web-sm
-=======
 pandas
 langdetect
 matplotlib
@@ -25,4 +13,5 @@ wordninja
 spacy
 imbalanced-learn
 keras-tuner
->>>>>>> bdfe3bfe0e2a0da63844fd2d4f2faa8828109619
+streamlit==1.22.0
+en-core-web-sm
