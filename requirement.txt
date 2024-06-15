@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 streamlit==1.22.0
 tensorflow==2.10.0
 matplotlib
@@ -8,3 +9,20 @@ spacy
 torch
 transformers
 en-core-web-sm
+=======
+pandas
+langdetect
+matplotlib
+seaborn
+wordcloud
+tensorflow==2.10
+numpy
+transformers
+scikit-learn
+torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
+nltk
+wordninja
+spacy
+imbalanced-learn
+keras-tuner
+>>>>>>> bdfe3bfe0e2a0da63844fd2d4f2faa8828109619

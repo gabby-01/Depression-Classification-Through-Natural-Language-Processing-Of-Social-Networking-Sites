@@ -1,2 +1,37 @@
+<<<<<<< HEAD
 # Ignore venv files
 venv/
+=======
+# Ignore venv file
+venv/
+
+# Ignore trained models
+BiLSTM_model.h5
+CNN_model.h5
+GRU_model(latest).h5
+LSTM_model.h5
+RNN_model.h5
+
+# Ignore model tuning information
+keras_BiLSTM_tuner_bayesian_optimizer/
+keras_GRU_tuner_hyperband/
+keras_LSTM_tuner_bayesian_optimizer/
+
+# Ignore GloVe pre-trained model
+glove.6B.300d.txt
+
+# Ignore datasets
+*.csv
+
+# Ignore poster file
+Poster/
+
+# Ignore json file
+*.json
+
+# Ignore json to csv conversion file
+Json_to_csv_conversion.ipynb
+
+# Ignore pickle file
+*.pkl
+>>>>>>> bdfe3bfe0e2a0da63844fd2d4f2faa8828109619
