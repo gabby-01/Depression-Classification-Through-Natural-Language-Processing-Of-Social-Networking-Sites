@@ -36,7 +36,7 @@ For detailed documentation of the project, including methodology, implementation
 # Python Tools & Versions ⚙️
 To ensure reproducibility and compatibility, the following versions of tools and libraries were used in this project:
 * **Python:** 3.10.11
-* **Tensorflow:** 2.10.1
+* **tensorflow:** 2.10.1
 * **pandas:** 2.2.2
 * **langdetect:** 1.0.7
 * **matplotlib:** 3.9.0
