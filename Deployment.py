@@ -41,31 +41,19 @@ spacy.cli.download('en_core_web_sm') # Download spacy model
 conn = sqlite3.connect('data.db')
 c = conn.cursor()
 
-@st.cache(allow_output_mutation=True)
-def load_spacy_model():
-    return spacy.load('en_core_web_sm')
+# Load necessary Spacy model
 nlp = load_spacy_model()
 
 # Load the pre-trained Tokenizer
-@st.cache(allow_output_mutation=True)
-def load_tokenizer():
-    with open('tokenizer.pkl', 'rb') as file:
-        return pickle.load(file)
-tokenizer = load_tokenizer()
+with open('tokenizer.pkl', 'rb') as file:
+    tokenizer = load_tokenizer()
 
 # Load the HDF5 BiLSTM model
-@st.cache(allow_output_mutation=True)
-def load_bilstm_model():
-    return load_model('./BiLSTM_model.h5')
-BiLSTM_model = load_bilstm_model()
+BiLSTM_model = load_model('./BiLSTM_model.h5')
 
 # Load the Hugging Face pre-trained model
-@st.cache(allow_output_mutation=True)
-def load_huggingface_model():
-    tokenizer = AutoTokenizer.from_pretrained("ShreyaR/finetuned-roberta-depression")
-    model = AutoModelForSequenceClassification.from_pretrained("ShreyaR/finetuned-roberta-depression")
-    return tokenizer, model
-hf_tokenizer, hf_model = load_huggingface_model()
+hf_tokenizer = AutoTokenizer.from_pretrained("ShreyaR/finetuned-roberta-depression")
+hf_model = AutoModelForSequenceClassification.from_pretrained("ShreyaR/finetuned-roberta-depression")
 
 # Load the images
 Depression_Home_1 = "Pictures\Depression_Home_1.png"
@@ -256,10 +244,10 @@ def add_data(message, prediction, depression_proba, non_depression_proba, postda
     conn.commit()
 
 # Function to view all the data from the database table
-@st.cache
 def view_all_data():
     c.execute("SELECT * FROM predictionTable")
-    return c.fetchall()
+    data = c.fetchall()
+    return data
 
 # Construct the website application
 def main():
